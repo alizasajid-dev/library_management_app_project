@@ -4,7 +4,8 @@
   "description": "Library Management Systems using NodeJS ExpressJS MongoDB",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "author": "Alvin Martin Djong",
   "license": "ISC",
@@ -22,9 +23,11 @@
     "mongodb": "^6.16.0",
     "mongoose": "^5.13.2",
     "multer": "^1.4.2",
-    "validator": "^13.6.0"
+    "validator": "^13.6.0",
+
   },
   "devDependencies": {
-    "dotenv": "^10.0.0"
+    "dotenv": "^10.0.0",
+    "nodemon": "^3.1.10"
   }
 }
