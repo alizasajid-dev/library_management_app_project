@@ -81,8 +81,9 @@ mongoose.connect(process.env.DB_URL, {
   useCreateIndex: true,
 }).then(() => {
     app.listen(process.env.PORT || 3000, () => {
-      console.log(`Alvin's Library | Listening at http://localhost:${process.env.PORT}`)
+      console.log(`Aliza's Library | Listening at http://localhost:${process.env.PORT}`)
     })
   })
   .catch((err) => console.log(err))
 
+  module.exports = app;
